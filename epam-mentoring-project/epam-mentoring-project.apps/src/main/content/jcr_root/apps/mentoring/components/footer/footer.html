@@ -1,0 +1,18 @@
+<section class="footer" data-sly-use.model="com.epam.mentoring.aem.models.FooterModel">
+    <sly data-sly-test.hasLinks="${model.links}">
+        <div class="footer-nav">
+            <ul data-sly-list="${model.links}">
+                <li class="footer-nav__item">
+                    <a href="${item.targetUrl}" target="_blank">${item.text @ context='html'}</a>
+                </li>
+            </ul>
+        </div>
+    </sly>
+    <sly data-sly-test.hasCopyright="${model.copyright}">
+        <div class="footer__copyright">&#169; ${model.copyright @ context='html'}</div>
+    </sly>
+    <sly data-sly-test="${wcmmode.edit && !hasLinks && !hasCopyright}"
+         data-sly-use.emptyRenderer="/apps/mentoring/components/empty-placeholder/empty-placeholder.html"
+         data-sly-call="${emptyRenderer.emptyPlaceholder  @ text='Footer Component'}">
+    </sly>
+</section>

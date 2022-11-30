@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+          xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="Header Component"
+    xtype="dialog"
+    height="500"
+    width="800">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <tabs jcr:primaryType="cq:TabPanel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <logo
+                    jcr:primaryType="cq:Widget"
+                    title="Logo"
+                    xtype="panel">
+                    <items jcr:primaryType="cq:WidgetCollection">
+                        <logoImage
+                            jcr:primaryType="cq:Widget"
+                            allowUpload="{Boolean}true"
+                            ddGroups="[media]"
+                            fileNameParameter="./fileLogoName"
+                            fileReferenceParameter="./fileLogoReference"
+                            name="./file"
+                            height="200"
+                            fieldLabel="Logo Image"
+                            title="Logo Image"
+                            renditionSuffix=""
+                            requestSuffix=""
+                            fallbackRenditionSuffix=""
+                            xtype="html5smartimage"/>
+                        <logoAltText
+                            jcr:primaryType="cq:Widget"
+                            fieldLabel="Logo Alt Text"
+                            name="./logoAltText"
+                            xtype="textfield"/>
+                    </items>
+                </logo>
+            </items>
+        </tabs>
+    </items>   
+</jcr:root>

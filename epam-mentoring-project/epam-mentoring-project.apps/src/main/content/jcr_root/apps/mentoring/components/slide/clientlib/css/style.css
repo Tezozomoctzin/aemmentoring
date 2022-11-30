@@ -1,0 +1,17 @@
+.slide-wrapper .slide-image{
+	width: 300px;
+	height: 300px;
+}
+
+.slide-wrapper .slide-image img{
+	width: 100%;
+	height: auto;
+}
+
+.slide-wrapper .slide-text{
+	color: white;
+	top: -300px;
+	left: 10px;
+	position: relative;
+	text-shadow: black 3px 3px 3px;
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/content/mentoring"/>
+    <filter root="/content/dam/mentoring"/>
+    <filter root="/etc/tags" mode="update"/>
+    <filter root="/etc/mentoring/i18n"/>
+</workspaceFilter>

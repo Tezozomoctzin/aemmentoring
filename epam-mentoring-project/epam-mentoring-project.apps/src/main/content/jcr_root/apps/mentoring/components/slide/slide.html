@@ -1,0 +1,9 @@
+<div class="slide-wrapper" data-sly-use.slideModel="com.epam.mentoring.aem.models.SlideModel">
+    <div class="slide-image">    
+        <img data-sly-test="${slideModel.hasDAMImage}" src="${slideModel.fileSlideReference}" alt="${properties.slideText}"/>
+        <img data-sly-test="${!slideModel.hasDAMImage && slideModel.hasUploadedImage}" src="${slideModel.image.src}"  />
+    </div>
+    <div class="slide-text">
+        <p data-sly-text="${slideModel.slideText}" data-sly-unwrap></p>
+    </div>
+</div>

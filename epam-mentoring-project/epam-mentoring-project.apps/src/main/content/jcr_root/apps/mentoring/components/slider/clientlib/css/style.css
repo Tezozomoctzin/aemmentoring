@@ -1,0 +1,17 @@
+.slider{
+	white-space: nowrap;
+	overflow: auto;
+	overflow-y: hidden;
+	height: 300px;
+}
+
+.slider .slide{
+	margin: 10px;
+	white-space: normal;
+	display: inline-block;
+}
+
+.slider .slider-header{
+	margin-left: 10px;
+	font-weight: bold;
+}

@@ -1,0 +1,20 @@
+# File contains project specific rewrite rules
+
+# Pass through "/" requests to "/home.html"
+RewriteRule ^/home.html / [R,L,NC]
+RewriteRule  ^/$        /home.html
+
+RewriteRule ^/content/mentoring/(.*).html$ /$1.html [R,L]
+
+
+RewriteRule ^/(.*).html$ /content/mentoring/$1.html? [PT,L]
+
+
+RewriteCond %{REQUEST_URI} !^/etc/clientlibs/.*
+RewriteCond %{REQUEST_URI} !^/etc/designs/.*
+RewriteCond %{REQUEST_URI} !^/content/dam/(.*).(jpg|gif|png)
+RewriteCond %{REQUEST_URI} !^/dispatcher/.*
+RewriteRule ^(.*)$ /error.404.html [R=301,L]
+
+
+

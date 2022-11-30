@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:vlt="http://www.day.com/jcr/vault/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2016-05-17T15:06:52.042+03:00"
+        cq:lastModifiedBy="admin"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="cpm.aem.mentoring Design"
+        sling:resourceType="wcm/core/components/designer">
+        <content-page jcr:primaryType="nt:unstructured">
+            <par-header
+                jcr:lastModified="{Date}2016-05-17T12:42:48.885+03:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                components="/apps/mentoring/components/header">
+                <section jcr:primaryType="nt:unstructured"/>
+            </par-header>
+            <par-footer
+                jcr:lastModified="{Date}2016-05-17T12:43:00.153+03:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                components="/apps/mentoring/components/footer">
+                <section jcr:primaryType="nt:unstructured"/>
+            </par-footer>
+            <content
+                jcr:lastModified="{Date}2016-05-17T12:43:13.966+03:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                components="/apps/mentoring/components/slider">
+                <section jcr:primaryType="nt:unstructured"/>
+                <slider
+                    jcr:lastModified="{Date}2016-05-17T15:06:52.038+03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    components="/apps/mentoring/components/slide"/>
+            </content>
+        </content-page>
+    </jcr:content>
+</jcr:root>

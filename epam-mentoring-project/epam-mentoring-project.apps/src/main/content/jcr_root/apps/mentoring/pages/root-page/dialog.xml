@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+          jcr:primaryType="cq:Dialog"
+          height="400"
+          stateful="false"
+          xtype="dialog">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <tabs jcr:primaryType="cq:TabPanel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <basic
+                        jcr:primaryType="cq:Widget"
+                        path="/libs/wcm/foundation/components/page/tab_basic.infinity.json"
+                        xtype="cqinclude"/>
+                <advanced
+                        jcr:primaryType="cq:Widget"
+                        path="/libs/wcm/foundation/components/page/tab_advanced.infinity.json"
+                        xtype="cqinclude"/>
+                <errorpages
+                        jcr:primaryType="cq:Widget"
+                        title="Error Pages"
+                        xtype="panel">
+                    <items jcr:primaryType="cq:WidgetCollection">
+                        <fieldset
+                                jcr:primaryType="cq:Widget"
+                                collapsed="{Boolean}true"
+                                collapsible="{Boolean}true"
+                                title="Error Pages"
+                                xtype="dialogfieldset">
+                            <items jcr:primaryType="cq:WidgetCollection">
+                                <errorPages
+                                        jcr:primaryType="cq:Widget"
+                                        fieldLabel="Error Pages"
+                                        fieldDescription="Error pages for this content tree"
+                                        name="./errorPages"
+                                        xtype="pathfield"/>
+                            </items>
+                        </fieldset>
+                    </items>
+                </errorpages>
+                <image
+                        jcr:primaryType="cq:Widget"
+                        path="/libs/wcm/foundation/components/page/tab_image.infinity.json"
+                        xtype="cqinclude"/>
+                <cloudservices
+                        jcr:primaryType="cq:Widget"
+                        path="/libs/wcm/foundation/components/page/tab_cloudservices.infinity.json"
+                        xtype="cqinclude"/>
+                <blueprint
+                        jcr:primaryType="cq:Widget"
+                        path="/libs/wcm/foundation/components/page/tab_blueprint.infinity.json"
+                        xtype="cqinclude"/>
+                <livecopy
+                        jcr:primaryType="cq:Widget"
+                        path="/libs/wcm/foundation/components/page/tab_livecopy.infinity.json"
+                        xtype="cqinclude"/>
+            </items>
+        </tabs>
+    </items>
+</jcr:root>

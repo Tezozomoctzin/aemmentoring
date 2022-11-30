@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+            cq:designPath="/etc/designs/mentoring"
+            cq:template="/apps/mentoring/templates/error-page-template"
+            jcr:primaryType="cq:PageContent"
+            jcr:title="Internal Server Error"
+            sling:resourceType="mentoring/pages/content-page">
+        <content
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/parsys">
+            <text
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/text"
+                    text="&lt;p style=&quot;text-align: center;&quot;>Internal Server Error&lt;/p>&#xd;&#xa;"
+                    textIsRich="true"/>
+        </content>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,13 @@
+<section class="header">
+    <div class="header-content" data-sly-use.headerModel="com.epam.mentoring.aem.models.HeaderModel">
+        <div class="header-image">    
+            <img data-sly-test="${headerModel.hasDAMImage}" src="${properties.fileLogoReference}" alt="${properties.logoAltText}"/>
+            <img data-sly-test="${!headerModel.hasDAMImage && headerModel.hasUploadedImage}" src="${headerModel.image.src}"  />
+        </div>
+        <div class="header-top-menu">
+            <ul class="top-menu" data-sly-list.menuitem="${headerModel.topMenu}">
+                <li class="navigation-item"><a href="${menuItem.path}.html" class="top-menu-link">${menuItem.title}</a></li>
+            </ul>
+        </div>
+    </div>    
+</section>

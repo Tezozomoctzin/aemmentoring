@@ -1,0 +1,19 @@
+<div data-sly-use.model="com.epam.mentoring.aem.models.SliderModel" data-sly-unwrap></div>
+<div data-sly-test.author="${wcmmode.edit || wcmmode.design}" data-sly-unwrap></div>
+<div class="slider">
+    <div data-sly-text="${model.sliderHeaderText}" class="slider-header"></div>
+    <div data-sly-test="${author}">
+        <div data-sly-resource="${ @path='sliderpar', resourceType='wcm/foundation/components/parsys'}"></div>
+    </div>
+    <div data-sly-test="${!author}">
+        <div class="slides">
+            <div data-sly-list.child="${model.slides}" data-sly-unwrap>
+                <div class="slide">
+                    <div class="slide-content">
+                        <div data-sly-resource="${ @ path=child.name, resourceType=child.resourceType}"></div>
+                    </div>
+                </div>
+            </div>    
+        </div>
+    </div>
+</div>

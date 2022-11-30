@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:description="Error Page - for error pages (e.g. HTTP Status Codes: 404, 500, etc.)"
+    jcr:primaryType="cq:Template"
+    jcr:title="Error Page"
+    allowedPaths="[/content/mentoring/.+(/.*)?]"
+    ranking="{Long}100">
+    <jcr:content
+        cq:designPath="/etc/designs/mentoring"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="mentoring/pages/content-page">
+        <content
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/parsys"/>
+    </jcr:content>
+</jcr:root>

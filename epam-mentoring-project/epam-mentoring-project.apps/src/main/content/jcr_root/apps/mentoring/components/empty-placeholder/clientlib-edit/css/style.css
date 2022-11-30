@@ -1,0 +1,10 @@
+.empty-placeholder {
+    margin: 0 auto;
+    padding: 0px 10px;
+    border: 2px dashed #cccccc;
+    text-align: center;
+}
+
+.cq-wcm-preview .empty-placeholder {
+    display:none;
+}

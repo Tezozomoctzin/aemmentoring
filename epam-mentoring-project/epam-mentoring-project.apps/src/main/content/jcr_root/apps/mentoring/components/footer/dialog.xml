@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+          jcr:primaryType="cq:Dialog"
+          title="Footer Component"
+          xtype="dialog"
+          height="400"
+          width="650">
+    <items
+            jcr:primaryType="cq:Widget"
+            xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <tab-copyright
+                    jcr:primaryType="cq:Widget"
+                    title="Copyright Info"
+                    xtype="panel">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <copyright
+                            jcr:primaryType="cq:Widget"
+                            allowBlank="{Boolean}true"
+                            fieldLabel="Display Text"
+                            name="./copyright"
+                            xtype="textfield"/>
+                </items>
+            </tab-copyright>
+            <tab-links
+                    jcr:primaryType="cq:Widget"
+                    title="Footer Links"
+                    xtype="panel">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <links
+                            jcr:primaryType="cq:Widget"
+                            addItemLabel="Add Link"
+                            fieldLabel="Links"
+                            name="./links"
+                            xtype="multifield">
+                        <fieldConfig
+                                jcr:primaryType="cq:Widget"
+                                xtype="multifieldpanel">
+                            <items jcr:primaryType="cq:WidgetCollection">
+                                <text
+                                        jcr:primaryType="cq:Widget"
+                                        allowBlank="{Boolean}false"
+                                        fieldLabel="Link Text"
+                                        key="text"
+                                        width="200"
+                                        xtype="textfield"/>
+                                <url
+                                        jcr:primaryType="cq:Widget"
+                                        allowBlank="{Boolean}false"
+                                        fieldLabel="Target URL"
+                                        fieldDescription="Path to the page or url"
+                                        key="targetUrl"
+                                        width="200"
+                                        xtype="pathfield"
+                                        rootPath="/content"/>
+                            </items>
+                        </fieldConfig>
+                    </links>
+                    <typehint
+                            jcr:primaryType="cq:Widget"
+                            ignoreValue="{Boolean}true"
+                            name="./definitions@TypeHint"
+                            value="String[]"
+                            xtype="hidden"/>
+                </items>
+            </tab-links>
+        </items>
+    </items>
+</jcr:root>

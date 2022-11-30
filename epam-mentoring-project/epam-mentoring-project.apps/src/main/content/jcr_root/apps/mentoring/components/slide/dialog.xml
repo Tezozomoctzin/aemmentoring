@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+          xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="Slide Component"
+    xtype="dialog"
+    height="500"
+    width="800">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <tabs jcr:primaryType="cq:TabPanel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <slidetab
+                    jcr:primaryType="cq:Widget"
+                    title="Slide"
+                    xtype="panel">
+                    <items jcr:primaryType="cq:WidgetCollection">
+                        <slideImage
+                            jcr:primaryType="cq:Widget"
+                            allowUpload="{Boolean}true"
+                            ddGroups="[media]"
+                            fileNameParameter="./fileSlideName"
+                            fileReferenceParameter="./fileSlideReference"
+                            name="./file"
+                            height="200"
+                            fieldLabel="Slide Image"
+                            title="Slide Image"
+                            renditionSuffix=""
+                            requestSuffix=""
+                            fallbackRenditionSuffix=""
+                            xtype="html5smartimage"/>
+                        <slideText
+                            jcr:primaryType="cq:Widget"
+                            fieldLabel="Slide Text"
+                            name="./slideText"
+                            xtype="textfield"/>
+                    </items>
+                </slidetab>
+            </items>
+        </tabs>
+    </items>   
+</jcr:root>

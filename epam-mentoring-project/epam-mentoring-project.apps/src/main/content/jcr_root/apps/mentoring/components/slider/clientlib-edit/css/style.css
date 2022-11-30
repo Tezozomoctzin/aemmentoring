@@ -1,0 +1,10 @@
+.slider {
+	overflow: auto;
+	height: auto;
+}
+
+.slider .slide{
+	float: none;
+	margin: 10px;
+	display: block !important;
+}
