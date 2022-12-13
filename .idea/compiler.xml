@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mentoring-config" />
+        <module name="com.epam.mentoring.aem.services" />
+        <module name="mentoring-apps-aem" />
+        <module name="mentoring-apps-package" />
+        <module name="com.epam.mentoring.aem.workflow" />
+        <module name="mentoring-all" />
+        <module name="com.epam.mentoring.aem.view" />
+        <module name="mentoring-content" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="aemmentoring" target="1.5" />
+      <module name="com.epam.mentoring.aem.services" target="1.8" />
+      <module name="com.epam.mentoring.aem.view" target="1.8" />
+      <module name="com.epam.mentoring.aem.workflow" target="1.8" />
+      <module name="mentoring-all" target="1.5" />
+      <module name="mentoring-apps-aem" target="1.5" />
+      <module name="mentoring-apps-package" target="1.5" />
+      <module name="mentoring-bundles" target="1.8" />
+      <module name="mentoring-config" target="1.5" />
+      <module name="mentoring-content" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

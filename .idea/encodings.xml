@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/epam-mentoring-project.all/src/main/content/META-INF" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/epam-mentoring-project.all/src/main/content/jcr_root" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/epam-mentoring-project.all/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/epam-mentoring-project.apps-aem/src/main/content/META-INF" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/epam-mentoring-project.apps-aem/src/main/content/jcr_root" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/epam-mentoring-project.apps-aem/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/epam-mentoring-project.apps/src/main/content/META-INF" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/epam-mentoring-project.apps/src/main/content/jcr_root" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/epam-mentoring-project.apps/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/epam-mentoring-project.bundles/epam-mentoring-project.services/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/epam-mentoring-project.bundles/epam-mentoring-project.services/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/epam-mentoring-project.bundles/epam-mentoring-project.view/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/epam-mentoring-project.bundles/epam-mentoring-project.view/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/epam-mentoring-project.bundles/epam-mentoring-project.workflow/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/epam-mentoring-project.bundles/epam-mentoring-project.workflow/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/epam-mentoring-project.bundles/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/epam-mentoring-project.bundles/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/epam-mentoring-project.config/src/main/content/META-INF" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/epam-mentoring-project.config/src/main/content/jcr_root" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/epam-mentoring-project.config/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/epam-mentoring-project.content/src/main/content/META-INF" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/epam-mentoring-project.content/src/main/content/jcr_root" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/epam-mentoring-project.content/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

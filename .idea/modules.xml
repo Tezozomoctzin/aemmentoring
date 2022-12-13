@@ -3,6 +3,17 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/aemmentoring.iml" filepath="$PROJECT_DIR$/.idea/aemmentoring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/epam-mentoring-project.bundles/epam-mentoring-project.services/com.epam.mentoring.aem.services.iml" filepath="$PROJECT_DIR$/epam-mentoring-project.bundles/epam-mentoring-project.services/com.epam.mentoring.aem.services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/epam-mentoring-project.bundles/epam-mentoring-project.view/com.epam.mentoring.aem.view.iml" filepath="$PROJECT_DIR$/epam-mentoring-project.bundles/epam-mentoring-project.view/com.epam.mentoring.aem.view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/epam-mentoring-project.bundles/epam-mentoring-project.workflow/com.epam.mentoring.aem.workflow.iml" filepath="$PROJECT_DIR$/epam-mentoring-project.bundles/epam-mentoring-project.workflow/com.epam.mentoring.aem.workflow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/epam-mentoring-project.bundles/epam-mentoring-project.view/src/main/main.iml" filepath="$PROJECT_DIR$/epam-mentoring-project.bundles/epam-mentoring-project.view/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/epam-mentoring-project.all/mentoring-all.iml" filepath="$PROJECT_DIR$/epam-mentoring-project.all/mentoring-all.iml" />
+      <module fileurl="file://$PROJECT_DIR$/epam-mentoring-project.apps-aem/mentoring-apps-aem.iml" filepath="$PROJECT_DIR$/epam-mentoring-project.apps-aem/mentoring-apps-aem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/epam-mentoring-project.apps/mentoring-apps-package.iml" filepath="$PROJECT_DIR$/epam-mentoring-project.apps/mentoring-apps-package.iml" />
+      <module fileurl="file://$PROJECT_DIR$/epam-mentoring-project.bundles/mentoring-bundles.iml" filepath="$PROJECT_DIR$/epam-mentoring-project.bundles/mentoring-bundles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/epam-mentoring-project.config/mentoring-config.iml" filepath="$PROJECT_DIR$/epam-mentoring-project.config/mentoring-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/epam-mentoring-project.content/mentoring-content.iml" filepath="$PROJECT_DIR$/epam-mentoring-project.content/mentoring-content.iml" />
+      <module fileurl="file://$PROJECT_DIR$/epam-mentoring-project.bundles/epam-mentoring-project.view/src/test/test.iml" filepath="$PROJECT_DIR$/epam-mentoring-project.bundles/epam-mentoring-project.view/src/test/test.iml" />
     </modules>
   </component>
 </project>
