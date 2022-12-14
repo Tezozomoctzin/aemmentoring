@@ -31,7 +31,7 @@ public class ResourceVersioningService implements ResourceChangeListener {
     public void onChange(List<ResourceChange> list) {
         ResourceResolver resolver = null;
         try {
-            resolver = ResourceResolverServiceImpl.getResourceResolver(resourceResolverFactory);
+            resolver = ResourceResolverUtility.getResourceResolver(resourceResolverFactory);
             PageManager pageManager = resolver.adaptTo(PageManager.class);
             for (ResourceChange change : list) {
                 if(change.getUserId().equals(resolver.getUserID())){
