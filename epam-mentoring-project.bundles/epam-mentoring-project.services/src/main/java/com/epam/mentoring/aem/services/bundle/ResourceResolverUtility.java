@@ -9,7 +9,7 @@ import java.util.Map;
 
 public class ResourceResolverUtility {
 
-    public static final String MENTOTINGSERVICEUSER = "mentoringserviceuser";
+    public static final String MENTOTINGSERVICEUSER = "versioningservice";
 
     public static ResourceResolver getResourceResolver(ResourceResolverFactory resourceResolverFactory) throws LoginException {
         Map<String, Object> param = new HashMap<>();
